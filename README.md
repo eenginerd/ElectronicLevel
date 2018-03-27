@@ -1,6 +1,5 @@
 # ElectronicLevel
 
-## Summary 
 Arduino code for an electronic level designed to fit ontop of a bubble level. 
 Once uploaded to an Arduino wired according to the "Wiring" section below a readout of the degrees off of the X and Y axis will be displayed on the OLED screen. 
 In addition, below the readout will be either "Stable" or "Unstable". 
@@ -18,8 +17,11 @@ i2cdevlib < https://github.com/jrowberg/i2cdevlib >
 Kalman Filter Library  < https://github.com/TKJElectronics/KalmanFilter >
 
 SPI
+
 Wire
+
 Adafruit_GFX  < https://github.com/adafruit/Adafruit-GFX-Library >
+
 Adafruit_SSD1306 < https://github.com/adafruit/Adafruit_SSD1306 >
 
 ## Wiring 
