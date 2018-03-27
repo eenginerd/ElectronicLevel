@@ -53,7 +53,9 @@ This project has no license currently
 ## Acknowledgments 
 
 Kristian Lauszus:
+
 The Kalman and Complimentary filter code along with angle calculations used in my Electronic Level project is just a modified version of Kristian Lauszus' example sketch in the Kalman Filter library.   
 
 Jeff Rowberg:
+
 Accelerometer and gyroscope data collected using the MPU-6050 is collected using Jeff Rowberg's I2Cdev and MPU6050 libraries. 
