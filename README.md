@@ -1,9 +1,10 @@
 # Electronic Level
 
 Arduino code for an electronic level designed to fit ontop of a bubble level. 
-Once uploaded to an Arduino wired according to the "Wiring" section below a readout of the degrees off of the X and Y axis will be displayed on the OLED screen. 
-In addition, below the readout will be either "Stable" or "Unstable". 
-Once you see the "Stable" readout you can then trust that the angle being displayed on the OLED has been calculated to an accuracy of +/- .125 deg. 
+Provides a readout of the degrees off of the X and Y axis on the OLED screen. 
+Below the readout it will say either "Stable" or "Unstable". 
+A "Stable" readout indicates that the angle being displayed has been calculated to an accuracy of +/- .125 deg. 
+An "Unstable" readout indicates that the angle being calculated by your arduino is changing by more than +/- .125 deg over the previous 200 calculations.
 
 ## Getting Started
 To implement this on your own device just connect the Arduino and all of the components according to the "#Wiring" section below
@@ -52,7 +53,7 @@ This project has no license currently
 ## Acknowledgments 
 
 Kristian Lauszus:
-This project is based around Kristian Lauszus' sketch which is included as an example in the Kalman Filter library. 
+The Kalman and Complimentary filter code along with angle calculations used in my Electronic Level project is just a modified version of Kristian Lauszus' example sketch in the Kalman Filter library.   
 
 Jeff Rowberg:
 Accelerometer and gyroscope data collected using the MPU-6050 is collected using Jeff Rowberg's I2Cdev and MPU6050 libraries. 
