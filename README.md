@@ -10,8 +10,7 @@ To implement this on your own device just connect the Arduino and all of the com
 once wired upload Electronic_Level.ino to your Arduino.
 
 
-## Prerequisites
-Libraries needed:
+## Required Libraries
 
 SPI.h
 
