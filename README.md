@@ -23,21 +23,18 @@ Adafruit_SSD1306 < https://github.com/adafruit/Adafruit_SSD1306 >
 | Vcc           | +5v           | 
 | GND           | GND           |  
 | SCL           | A5            |    
+| SDA           | A4            |
+| AD0           | GND           |
+| Int           | D2            |
 
 
-MPU-6050 -- > Arduino Nano
-Vcc -- > +5v;
-GND -- > GND;
-SCL -- > A5;
-SDA -- > A4;
-AD0 -- > GND;
-Int -- > D2;
+| OLED    | Arduino     |
+|---------|------------:|
+| GND     | GND         |
+| Vcc     | +5v         |
+| SCL     | A5          |
+| SDA     | A4          |
 
-OLED -- > Arduino Nano
-GND -- > GND
-Vcc -- > +5v
-SCL -- > A5
-SDA -- > A4
 
 # Authors
 Austin Wohlert - eenginerd.com
