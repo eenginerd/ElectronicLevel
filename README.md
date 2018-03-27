@@ -20,12 +20,12 @@ Adafruit_SSD1306 < https://github.com/adafruit/Adafruit_SSD1306 >
 # Wiring 
 
 MPU-6050 -- > Arduino Nano
-Vcc -- > +5v
-GND -- > GND
-SCL -- > A5
-SDA -- > A4
-AD0 -- > GND
-Int -- > D2 
+Vcc -- > +5v;
+GND -- > GND;
+SCL -- > A5;
+SDA -- > A4;
+AD0 -- > GND;
+Int -- > D2;
 
 OLED -- > Arduino Nano
 GND -- > GND
