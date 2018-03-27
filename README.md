@@ -12,17 +12,18 @@ once wired upload Electronic_Level.ino to your Arduino.
 
 ## Prerequisites
 Libraries needed:
-i2cdevlib < https://github.com/jrowberg/i2cdevlib >
 
-Kalman Filter Library  < https://github.com/TKJElectronics/KalmanFilter >
+SPI.h
 
-SPI
+Wire.h
 
-Wire
+i2cdevlib.h < https://github.com/jrowberg/i2cdevlib >
 
-Adafruit_GFX  < https://github.com/adafruit/Adafruit-GFX-Library >
+Kalman.h  < https://github.com/TKJElectronics/KalmanFilter >
 
-Adafruit_SSD1306 < https://github.com/adafruit/Adafruit_SSD1306 >
+Adafruit_GFX.h  < https://github.com/adafruit/Adafruit-GFX-Library >
+
+Adafruit_SSD1306.h < https://github.com/adafruit/Adafruit_SSD1306 >
 
 ## Wiring 
 | MPU6050       | Arduino       | 
