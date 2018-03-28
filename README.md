@@ -5,6 +5,7 @@ Provides a readout of the degrees off of the X and Y axis on the OLED screen.
 Below the readout it will say either "Stable" or "Unstable". 
 A "Stable" readout indicates that the angle being displayed has been calculated to an accuracy of +/- .125 deg. 
 An "Unstable" readout indicates that the angle being calculated by your arduino is changing by more than +/- .125 deg over the previous 200 calculations.
+Even though your unit may be stationary it may take a few seconds for a stable readout to occur because of the Kalman filter
 
 ## Getting Started
 To implement this on your own device just connect the Arduino and all of the components according to the "#Wiring" section below
